@@ -1,0 +1,60 @@
+.banner{
+    /* background-color: black; */
+    background:url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg')  center  center;
+    height:80vh;
+    position:relative;
+    /* max-width:100%; 
+    height:auto; */
+}
+
+.hh{
+    font-size: 50px;
+}
+
+.hhh{
+    font-size: 30px;
+}
+
+.banner_info{
+    /* background-color:black; */
+    color:white;
+    padding: 20vh 50px 40px 50px;
+    width:1000px;
+    height:1000px;
+}
+
+.banner_info  >button{
+    background-color:#ff7779;
+    color:white;
+    text-transform:inherit;
+    font-weight:600;
+    margin-top:20px;
+
+}
+
+.banner_info >h5{
+    margin-top: 10px;
+}
+
+.banner_info > button:hover{
+    background-color:white;
+    color:#ff7779;
+}
+
+.banner_search{
+    display:flex;
+    flex-direction: column;
+}
+
+.button_searchButton{
+    background-color:white !important; 
+    font-weight:900 !important;
+    color:#ff7779   !important;
+    text-transform:inherit !important;
+}
+
+@media screen and (max-width:1000px){
+    .banner_info{
+        display: none;
+    }
+}
